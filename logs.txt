@@ -1,0 +1,6 @@
+$ git log
+commit 8fff8270b0e366648dd6ed3c77be4d190ca82211 (HEAD -> logs, origin/master, master)
+Author: unknown <Agon.DZaferi@students.finki.ukim.mk>
+Date:   Tue Apr 16 15:38:16 2019 +0200
+
+    initial commit
