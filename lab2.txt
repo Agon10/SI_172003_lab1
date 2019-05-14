@@ -1,0 +1,44 @@
+Introduction
+1.
+git commit -m „1“
+git commit -m „2“
+2.
+git branch bugFix
+git checkout bugFix
+3.
+git branch bugFix
+git checkout bugFix
+git commit -m „1“
+git checkout master
+git commit -m „2“
+git merge bugFix
+
+
+
+
+
+
+4.
+git branch bugFix
+git checkout bugFix
+git commit -m „1“
+git checkout master
+git commit -m „2“
+git checkout bugFix
+git rebase master
+
+
+
+
+Advanced topics
+1.
+ git checkout bugFix
+git rebase master
+git checkout side
+git rebase bugFix
+git checkout another
+git rebase side
+git checkout master
+git rebase another
+2.
+git branch bugWork master^^2^
